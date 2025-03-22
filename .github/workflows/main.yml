@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies and build
         run: |
           npm install
-          ng build --configuration production --base-href /demo/browser/ --output-path dist/demo/browser
+          npm run gh-pages-build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
