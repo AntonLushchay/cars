@@ -17,7 +17,6 @@
               "sourceMap": true
             },
             "production": {
-              "aot": true,
               "extractLicenses": true,
               "namedChunks": false,
               "optimization": true,
@@ -29,12 +28,12 @@
             "assets": [{ "glob": "**/*", "input": "public" }],
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "outputPath": "dist/demo",
+            "outputPath": "dist/demo/browser",
             "polyfills": ["zone.js"],
             "scripts": [],
             "styles": ["src/global_styles.css"],
             "tsConfig": "tsconfig.app.json",
-            "baseHref": "/cars/"
+            "baseHref": "/demo/browser/"
           }
         },
         "serve": {
