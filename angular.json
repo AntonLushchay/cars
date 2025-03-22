@@ -21,19 +21,20 @@
               "namedChunks": false,
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false
+              "sourceMap": false,
+              "baseHref": "/cars/"
             }
           },
           "options": {
             "assets": [{ "glob": "**/*", "input": "public" }],
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "outputPath": "dist/cars/",
+            "outputPath": "dist/",
             "polyfills": ["zone.js"],
             "scripts": [],
             "styles": ["src/global_styles.css"],
             "tsConfig": "tsconfig.app.json",
-            "baseHref": "https://antonlushchay.github.io/cars/"
+            "baseHref": "/cars/"
           }
         },
         "serve": {
