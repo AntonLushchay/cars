@@ -1,9 +1,17 @@
 # Cars Rent
 
-![Project Status](https://img.shields.io/badge/Status-Completed-success)
-![Project Type](https://img.shields.io/badge/Type-Educational-orange)
-![CI/CD](https://img.shields.io/badge/deploy-GitHub%20Pages-blue)
-![Angular](https://img.shields.io/badge/Angular-19-dd0031)
+![Status](https://img.shields.io/badge/status-Completed-darkgreen)
+![Type](https://img.shields.io/badge/type-Educational-orange)
+![Deploy](https://img.shields.io/badge/deploy-GitHub%20Pages-blue)
+![Audience](https://img.shields.io/badge/audience-Portfolio-purple)
+
+![Angular](https://img.shields.io/badge/Angular-19-DD0031?logo=angular)
+![HTML](https://img.shields.io/badge/HTML-5-red?logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
+![TypeScript](https://img.shields.io/badge/TypeScript-444444?logo=typescript)
+![RxJS](https://img.shields.io/badge/RxJS-444444?logo=reactivex)
+![ReactiveForms](https://img.shields.io/badge/Reactive%20Forms-444444)
+![AngularCLI](https://img.shields.io/badge/Angular%20CLI-444444?logo=angular)
 
 Веб-приложение для аренды премиальных автомобилей. Позволяет пользователям просматривать доступные спорткары, фильтровать их по маркам и оставлять заявки на бронирование.
 
